@@ -1,0 +1,58 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Week 2 Lab</title>
+<link type="text/css" rel="stylesheet" href="style.css" />
+
+
+</head>
+
+<body>
+
+<div id="form">
+	
+    <form name="info">
+    <p>
+    First Name <br />
+    <input type="text" id="firstName"/> <span id="fn_Error" class="error"> </span>
+    </p>
+    
+    <p class = "notNull">
+   	Last Name <br />
+    <input type="text" id="lastName"/> <span id="ln_Error" class="error"> </span>
+    </p>
+    
+     <p class = "notNull">
+   	Email <br />
+    <input type="text" id="email"/> <span id="email_Error" class="error"> </span>
+    </p>
+    <p class = "notNull">
+   	Confirm Email <br />
+    <input type="text" id="confirm"/> <span id="emailconfirm_Error" class="error"> </span>
+    </p>
+     <p class = "notNull">
+   	Phone Number <br />
+    <input type="text" id="phone"/> <span id="phone_Error"class="error"> </span>
+    </p>
+    
+    <input type="button" value="submit" onclick="" />
+    </form>
+
+</div>
+
+<div id="confirmation">
+	<h1>Confirmation</h1>
+    <p id="info">
+	<h1> Your Info </h1>
+	<h2 id = "nameOut"> Name: </h2>
+	<h2 id = "emailOut"> Email: </h2>
+	<h2 id = "phoneOut"> Phone Number: </h2>
+    </p>
+</div>
+
+</body>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+<script type="text/javascript" src="week2.js"></script>
+
+</html>
